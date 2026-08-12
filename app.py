@@ -108,7 +108,7 @@ if user_input:
             cols = st.columns(len(images_found))
             for c, res in zip(cols, images_found):
                 with c:
-                    st.image(res["path"], use_column_width=True)
+                    st.image(res["url"] or res["path"], use_column_width=True)
                     st.caption(f"score: {res['score']}")
 
     st.session_state.messages.append({"role": "assistant", "content": reply, "images": images_found})
