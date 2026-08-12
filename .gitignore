@@ -1,0 +1,11 @@
+data/dataset.zip
+data/raw/
+uploaded_images/
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# NOTE: chroma_db/ is intentionally NOT ignored - we commit the prebuilt
+# index so the deployed app works out of the box with no build step.

@@ -1,0 +1,13 @@
+streamlit==1.38.0
+langchain==0.2.16
+langchain-openai==0.1.23
+langchain-core==0.2.41
+chromadb==0.5.5
+transformers==4.44.2
+torch==2.2.2
+Pillow==10.4.0
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+gdown==5.2.0
+requests==2.32.3
+langchain-groq==0.1.9
